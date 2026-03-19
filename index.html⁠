@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>云雀知识助手</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f0f2f5;display:flex;align-items:center;justify-content:center;min-height:100vh}
+  .card{background:#fff;border-radius:16px;padding:40px 32px;text-align:center;box-shadow:0 4px 20px rgba(0,0,0,.1);max-width:360px;width:90%}
+  .icon{font-size:56px;margin-bottom:16px}
+  h1{font-size:20px;font-weight:700;color:#1a1a1a;margin-bottom:8px}
+  p{font-size:14px;color:#888;margin-bottom:28px;line-height:1.6}
+  .btn{display:block;background:linear-gradient(135deg,#1a73e8
+,#0d47a1);color:#fff;text-decoration:none;padding:14px 24px;border-radius:12px;font-size:16px;font-weight:600;margin-bottom:12px}
+  .btn-ghost{display:block;background:#f5f5f5;color:#555;text-decoration:none;padding:12px 24px;border-radius:12px;font-size:14px}
+  .tip{font-size:12px;color:#bbb;margin-top:20px}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="icon">⭐</div>
+  <h1>云雀知识助手</h1>
+  <p>制度流程 · 请假报销 · 考勤绩效<br>7×24小时在线解答</p>
+  <a class="btn" href="wxwork://message?username=aib-TpDK07T3QqFIoUIZe7u2Qra004hHBto">📱 打开企微对话</a>
+  <a class="btn-ghost" href="https://work.weixin.qq.com/wework_admin/frame#index">💻 网页版企微</a>
+  <p class="tip">点击按钮后在企微中搜索<br>「刘明星的机器人」开始对话</p>
+</div>
+<script>
+  setTimeout(() => {
+    window.location.href = "wxwork://message?username=aib-Tp
+DK07T3QqFIoUIZe7u2Qra004hHBto";
+  }, 500);
+</script>
+</body>
+</html>
